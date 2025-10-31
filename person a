@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Person B Chat</title>
+<title>Person A Chat</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h2>🔐 Person B</h2>
+<h2>🔐 Person A</h2>
 
-<textarea id="msgB" placeholder="Type a message"></textarea><br>
-<input type="password" id="keyB" placeholder="Encryption key">
-<button onclick="sendB()">Encrypt & Copy</button>
+<textarea id="msgA" placeholder="Type a message"></textarea><br>
+<input type="password" id="keyA" placeholder="Encryption key">
+<button onclick="sendA()">Encrypt & Copy</button>
