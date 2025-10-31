@@ -1,0 +1,13 @@
+function sendA(){
+  let enc = simpleEncrypt(msgA.value, keyA.value);
+  encA.value = enc;
+  navigator.clipboard.writeText(enc);
+  alert("Encrypted message copied! Send it to Person B");
+}
+
+function decryptA(){
+  decA.value = simpleDecrypt(msgFromB.value, decKeyA.value);
+}
+</script>
+</body>
+</html>
