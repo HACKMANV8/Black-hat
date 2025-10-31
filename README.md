@@ -1,1 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Person B Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>🔐 Person B</h2>
+
+<textarea id="msgB" placeholder="Type a message"></textarea><br>
+<input type="password" id="keyB" placeholder="Encryption key">
+<button onclick="sendB()">Encrypt & Copy</button>
 # Black-hat
